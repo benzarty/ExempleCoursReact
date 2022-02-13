@@ -43,7 +43,7 @@ class Cell extends React.Component {
       super(props);
     }
     componentWillUnmount() {
-      console.log("number " + this.props.id + " is dead");
+      console.log("number " + this.props.id + " is dead"); // héthéya yet3ayet wa7dou 
     }
   
     render() {

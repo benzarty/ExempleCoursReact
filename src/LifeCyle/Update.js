@@ -34,7 +34,7 @@ export class Update extends React.Component {
           likes: oldState.likes + 1,
           name: "setState",
         }));
-        if (false) {
+        if (false) {   //3la shouldComponentUpdate
         }
         console.log(this.state.name);
       }
